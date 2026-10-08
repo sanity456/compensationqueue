@@ -1,0 +1,42 @@
+{
+  "abi_sha256": "acab07a7e0ce3bd1cc2ac4478a673f8cc74c2c52c69afea90eea582897e3dc1b",
+  "contract_address": "0x336Ccf72B24042d09C6A0ab9D1A1c22542E9d4b0",
+  "deployed_abi_matches_local": true,
+  "deployed_source_sha256": "280e7e8b5191d35ba5f9034197f5981ea403ab14d5ecd4abb206ffd432797f62",
+  "deployment_transaction_hash": "0x9cd658e3678b872cccb2b9286bf4fbde1542a3f05dec228078866d1b54392a72",
+  "full_flow_test": {
+    "completed_at_utc": "2026-10-08T12:29:30.503468+00:00",
+    "final_state": "ROLLED_BACK",
+    "source_sha256": "280e7e8b5191d35ba5f9034197f5981ea403ab14d5ecd4abb206ffd432797f62",
+    "status": "passed",
+    "test_file": "tests/studionet_smoke.py",
+    "transaction_hashes": {
+      "begin_undo_chairs": "0x4f224d58958a0f7b31bed62477f1eb159dc99dfcfddee4545741204be54b2adb",
+      "begin_undo_table": "0xf4b6a78b598887dfd0f12ff583eb47e9c0dfcda62df74169b79cdf65ce03415f",
+      "cancel": "0x755f0b76fb6384fb9114464739237ef5599635c24de2efbf25a5550cbbff67a8",
+      "deploy": "0x9cd658e3678b872cccb2b9286bf4fbde1542a3f05dec228078866d1b54392a72",
+      "open_case": "0xeee8498f939eb9b1682c943acb8a89cefc425a21476a3d5f80c1f05bcc262d39",
+      "record_chairs": "0xd9e07c5a444e11d9d4c791517cbc10ddc80bc20a76bfcd8db6a29f39384e22b6",
+      "record_table": "0x006f3a332d441191a0b204ecceb65ba477c54cf7c2b869b963898a6507ca2b74",
+      "review_chairs": "0xa233af41c0142f9090b75d04b93831cdca3c6f00b003226abee8f9fa5f7a2382",
+      "review_table": "0x3e1472cf2e9ee442edf541735df2cf63aab8b204e568cf133b7a69f47720120d",
+      "verify_undo_chairs": "0xfaa8967e8048324a3729db76d23cc64f20ab11f3c7a55fd6e611550d568ae8f2",
+      "verify_undo_table": "0xe050563bff668c63bdcf0499d612d30d1fa255e50d14a4562007ee1eb9f106ea"
+    },
+    "workflow_id": "0x2b76afad365c49500dda556acef613af33de8fd5:release-51477cc4"
+  },
+  "network": {
+    "chain_id": 61999,
+    "name": "studionet",
+    "rpc": "https://studio.genlayer.com/api"
+  },
+  "repository": "compensationqueue",
+  "schema": "genlayer-submission-evidence/v2",
+  "source_bytes_match": true,
+  "source_sha256": "280e7e8b5191d35ba5f9034197f5981ea403ab14d5ecd4abb206ffd432797f62",
+  "wallet_addresses": {
+    "operator": "0xaD8e460f047ECBeD0Bc497A25afECddd19540599",
+    "owner": "0x2B76afad365C49500Dda556ACEF613af33DE8fd5",
+    "verifier": "0xA3d1d7722432fb097F76f7E579C4305127DaEE1a"
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "ctor": {
+    "params": [],
+    "kwparams": {}
+  },
+  "methods": {
+    "begin_undo": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "expected_plan_hash",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "cancel": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "reason",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "get_case": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "string"
+    },
+    "next_undo": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": true,
+      "ret": "int"
+    },
+    "open_case": {
+      "params": [
+        [
+          "case_key",
+          "string"
+        ],
+        [
+          "context",
+          "string"
+        ],
+        [
+          "operator",
+          "address"
+        ],
+        [
+          "verifier",
+          "address"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "record_effect": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "action",
+          "string"
+        ],
+        [
+          "effect",
+          "string"
+        ],
+        [
+          "proposal",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "review_next": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "string",
+      "payable": false
+    },
+    "revise_proposal": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "proposal",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    },
+    "verify_undo": {
+      "params": [
+        [
+          "case_id",
+          "string"
+        ],
+        [
+          "index",
+          "int"
+        ],
+        [
+          "accepted",
+          "bool"
+        ],
+        [
+          "note",
+          "string"
+        ]
+      ],
+      "kwparams": {},
+      "readonly": false,
+      "ret": "null",
+      "payable": false
+    }
+  }
+}
